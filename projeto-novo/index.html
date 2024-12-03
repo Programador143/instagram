@@ -1,0 +1,362 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- toastify-js -->
+    <link href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" rel="stylesheet" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        referrerpolicy="no-referrer" rel="stylesheet" />
+    <!-- META TAG OG -->
+    <meta content="website" property="og:type">
+    <meta content="Lilinda Salgados - O melhor salgadinho da região!" property="og:title">
+    <meta content="https://cardapio-coral.vercel.app/assets/logo%20lilinda.jpg" property="og:image" />
+    <meta content="O Salgado que te deixa com gostinho de quero mais!" property="og:description" />
+    <meta content="Lilinda Salgados" property="og:site_name" />
+    <link href="styles/output.css" rel="stylesheet" />
+    <link href="https://cardapio-coral.vercel.app/assets/logo%20lilinda.jpg" rel="shortcut icon" type="image/x-icon" />
+    <title>
+        Lilinda Salgados
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    </meta>
+    </meta>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+
+            <img alt="Logo Lilinda Salgados" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+                height="128"
+                src="https://storage.googleapis.com/a1aa/image/S4uXBZNtIoJoAdjBZwqf0nVDE8xuUUwt0JrxKZqvQrZBum7JA.jpg"
+                width="128" />
+            <h1 class="text-4xl mt-5 mb-2 font-bold text-white">
+                Lilinda Salgados
+            </h1>
+            <span class="text-white font-medium">
+                Rio de Janeiro
+            </span>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <h2 class="text-2xl md:text-4xl font-bold text-center mt-9">
+        Conheça nosso menu
+
+    </h2>
+    <div class="w-full h-full flex flex-col justify-center items-center mb-12">
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-4" id="date-span">
+            <span class="text-white font-medium">
+                Seg á Dom - 07:00 as 23:00
+            </span>
+        </div>
+    </div>
+    <!-- START MENU -->
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de coxinha de frango"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/ziH3YJjdkRYGEFY9ZhFeLYvlhLaK5w0EsK9ARPRp4hFCum7JA.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Salgados Fritos 100 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgado diferenciado por ser bem recheado e ter massa leve e delicioso. Fritos na hora
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 50.00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Salgados fritos 100" data-price="50">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de coxinha de frango congelada"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/GdejeUFxObjdRUbwWmzpPIYrvFkTavkfEacjH7ALuURB4aunA.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Salgados Congelados 100 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgados diferenciado por ser bem recheado e ter massa leve e delicioso. Congelados.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 40.00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Salgados Congeldos 100" data-price="40.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de bolinha de queijo frita"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/yWs9QbAkH7IYExzkMQRP1Zvr254AadEMHISzMYVaZIbBXz9E.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Salgados Fritos 50 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgados diferenciado por ser bem recheado e ter massa leve e delicioso. Fritos na hora.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 30.00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Salgados Fritos 50" data-price="30.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de bolinha de queijo congelada"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/Nbjoy31DdeTCOKzQWs0bOPpCzxrixZXJpRiOf2gxVfO93aunA.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Salgados Congelados 50 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgados diferenciado por ser bem recheado e ter massa leve e delicioso. Congelados.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 20,00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Salgados Congelados 50" data-price="20.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de salgado frito"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/tDWRMl0EL54DMxLMCeE3rvrkwghIJ0pi084AHsaK4X1Dum7JA.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Salgados Fritos 30 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgados diferenciado por ser bem recheado e ter massa leve e delicioso. Fritos na hora.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 20,00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Salgados Fritos 30" data-price="20.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de mini churros congelados"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/3GVinuQbQaYaL92i0IUz7aCiU1fCjSgFcsXywGAPavgEum7JA.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Mini Churros Congelados 100 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgado diferenciado por ser bem recheado e ter massa leve. Delicioso Mini churros com doce de
+                        leite. Congelados.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 40,00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Mini Churros Congelados 100" data-price="40,00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de mini churros fritos"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/4pa82VxvvRYRNtFHvD5K6yZ4kLp12PwvMT3Fi1qEptZAXz9E.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Mini Churros Fritos 50 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgado diferenciado por ser bem recheado e ter massa leve. Delicioso Mini churros com doce de
+                        leite. Fritos na hora.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 30,00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Mini Churros Fritos 50" data-price="30.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+            <!-- START PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img alt="Imagem de mini churros fritos"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" height="112"
+                    src="https://storage.googleapis.com/a1aa/image/4pa82VxvvRYRNtFHvD5K6yZ4kLp12PwvMT3Fi1qEptZAXz9E.jpg"
+                    width="112" />
+                <div>
+                    <p class="font-bold hover:scale-95 duration-300">
+                        Mini Churros Fritos 100 unidades
+                    </p>
+                    <p class="text-sm">
+                        Salgado diferenciado por ser bem recheado e ter massa leve. Delicioso Mini churros com doce de
+                        leite. Fritos na hora.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg hover:scale-110 duration-300">
+                            R$ 50,00
+                        </p>
+                        <button
+                            class="active:ring-green-600 active:ring-4 focus:ring focus:ring-red-500 bg-gray-900 px-5 rounded add-to-cart-btn hover:scale-110 hover:-rotate-2 duration-300"
+                            data-name="Mini Churros Fritos 100" data-price="50.00">
+                            <i class="fa fa-cart-plus text-lg text-red-700 active:text-green-600">
+                            </i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- END PRODUTO ITEM -->
+        </main>
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Lilinda
+            </h2>
+        </div>
+    </div>
+    <!-- END MENU -->
+    <!-- START MODAL CARD -->
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">
+                Meu carrinho
+            </h2>
+            <div class="mid max-h-[15rem] overflow-y-auto overflow-x-hidden flex justify-between mb-2 flex-col"
+                id="cart-items">
+            </div>
+            <p class="font-bold mt-4">
+                Total:
+                <span id="cart-total">
+                    0.00
+                </span>
+            </p>
+            <p>
+                Nome do Cliente:
+            </p>
+            <input class="w-full border-2 p-1 rounded my-1" id="your-name" placeholder="Digite seu nome" type="text" />
+            <p class="text-red-500 font-bold hidden" id="your-name-warn">
+                Digite seu nome!
+            </p>
+            <p>
+                Endereço de entrega:
+            </p>
+            <input class="w-full border-2 p-1 rounded my-1" id="address" placeholder="Digite seu endereço completo"
+                type="text" />
+            <p class="text-red-500 font-bold hidden" id="address-warn">
+                Digite seu endereço completo!
+            </p>
+            <p>
+                Ponto de Referência:
+            </p>
+            <input class="w-full border-2 p-1 rounded my-1" id="complement" placeholder="Digite um ponto de referencia"
+                type="text" />
+            <p class="text-red-500 font-bold hidden" id="complement-warn">
+                Digite um ponto de referencia!
+            </p>
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn">
+                    Fechar
+                </button>
+                <button class="bg-green-600 text-white px-4 py-1 rounded" id="checkout-btn">
+                    Finalizar pedido
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- END MODAL CARD -->
+    <!-- START BUTTON CARD FOOTER -->
+    <footer class="w-full bg-red-700 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white hover:scale-110 duration-300 font-bold" id="cart-btn">
+            (
+            <span id="cart-count">
+                0
+            </span>
+            )
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white active:text-green-600">
+            </i>
+        </button>
+    </footer>
+    <!-- END BUTTON CARD FOOTER -->
+    <!-- toastify-js -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js" type="text/javascript">
+    </script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
